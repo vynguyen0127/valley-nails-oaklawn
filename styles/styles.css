@@ -201,3 +201,47 @@
     display: block;
     margin: 0 auto;
   }
+
+  .image-text-section {
+    display: flex;
+    flex-wrap: wrap; /* Allow stacking on smaller screens */
+    width: 100%; /* Full width of the screen */
+  }
+  
+  .image-container, .text-container {
+    flex: 1 1 100%; /* Default: Full width for stacking */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 20px; /* Add spacing */
+  }
+  
+  .image-container img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+  }
+  
+  .text-container {
+    text-align: center; /* Center text */
+  }
+  
+  .text-container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #000;
+    width: 100%; /* Full width for the heading */
+  }
+  
+  .text-container p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  @media (min-width: 769px) {
+    .image-container, .text-container {
+      flex: 1 1 50%; /* Side by side on larger screens */
+    }
+  }
+  
