@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 10px 20px;
+    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .navbar img {
+    height: 40px;
+  }
+
+.navbar h1 {
+    text-align: center; /* Center the text horizontally */
+    color: #d4af37; /* Gold color */
+    font-family: 'Playfair Display', serif; /* Match the font style */
+    font-size: 2.0rem; /* Adjust the size as needed */
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Add spacing around the text */
+
+  }
+
+  .navbar-content {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Horizontally center items */
+    gap: 20px; /* Add spacing between items */
+  }
