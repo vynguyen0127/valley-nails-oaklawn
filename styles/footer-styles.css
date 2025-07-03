@@ -1,0 +1,45 @@
+footer {
+    background-image: linear-gradient(#d4af37, #d4af37);
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-content {
+    display: block;
+  }
+
+    .footer-content h2 {
+        background: -webkit-linear-gradient(white, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .footer-row img {
+        width: 35px; /* Adjust the width and height as needed */
+        height: 35px;
+        margin-right: 15px; /* Adjust spacing */
+    }
+
+    .footer-content hr {
+        width: 60%;
+    }
+    .footer-row {
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 5px;
+    }
+
+    .footer-row p {
+        margin-left: 5px;
+    }
+
+  
+  .footer-content p{
+    font-size: small;
+    color: black;
+  }
