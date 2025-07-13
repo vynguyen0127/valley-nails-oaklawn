@@ -29,3 +29,22 @@
     justify-content: center; /* Horizontally center items */
     gap: 20px; /* Add spacing between items */
   }
+
+  .navbar-links {
+    display: flex;
+    gap: 20px; /* Space between links */
+    justify-content: center; /* Center links horizontally */
+    margin-top: 10px; /* Add spacing below the title */
+}
+
+.navbar-link {
+    text-decoration: none; /* Remove underline */
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 1.2rem;
+    color: #d4af37; /* Gold color */
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #fff; /* Change color on hover */
+}
