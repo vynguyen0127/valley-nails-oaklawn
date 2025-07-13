@@ -54,6 +54,7 @@
 
   .card h3 {
     color: #d4af37;
+    margin-top: 2%;
   }
   .card {
     background: #fff;
@@ -76,9 +77,11 @@
   }
 
   .card-service {
-    width: 100px;
+    width: 150px;
+    height: auto;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
   }
 
   .card:hover {
