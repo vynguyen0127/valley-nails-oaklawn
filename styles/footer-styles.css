@@ -8,7 +8,11 @@ footer {
   }
 
   .footer-content {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
   }
 
     .footer-content h2 {
@@ -34,6 +38,7 @@ footer {
         margin: 0 auto;
         width: 70%;
         margin-bottom: 5px;
+        margin-top: 10px;
     }
 
     .footer-row p {
@@ -44,4 +49,19 @@ footer {
   .footer-content p{
     font-size: small;
     color: black;
+  }
+
+  @media (max-width: 768px) {
+    .footer-row {
+        align-items: start; /* Center items */
+        justify-content: start; /* Center text */
+    }
+
+    .footer-row img {
+        margin-bottom: 10px; /* Add spacing between image and text */
+    }
+
+    .footer-content {
+      display: block;
+    }
   }

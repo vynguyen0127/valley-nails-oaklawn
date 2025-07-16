@@ -48,3 +48,38 @@
 .navbar-link:hover {
     color: #fff; /* Change color on hover */
 }
+
+.bg-black {
+  background-color: #000 !important; /* Black background */
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #d4af37 !important; /* Gold color */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-brand img {
+  height: 30px; /* Adjust embellishment size */
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.text-gold {
+  color: #d4af37 !important; /* Gold color for links */
+}
+
+.text-gold:hover {
+  color: #fff !important; /* White on hover */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(212, 175, 55, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

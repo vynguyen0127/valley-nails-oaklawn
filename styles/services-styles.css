@@ -8,3 +8,42 @@
 .services {
     margin-top: 2%;;
 }
+
+.service-category {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-category h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .service-category li {
+    margin-bottom: 15px;
+  }
+  
+  .service-category h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .service-category p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #d4af37; /* Gold color */
+  }
