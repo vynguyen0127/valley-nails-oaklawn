@@ -47,3 +47,52 @@
     font-weight: bold;
     color: #d4af37; /* Gold color */
   }
+
+  .spa-item {
+  list-style: none;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 12px 0;
+}
+
+.spa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.spa-header h4 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.meta {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.price-2 {
+  font-weight: 600;
+  text-align: right;
+  min-width: 60px;
+  color: #d4af37; /* Gold color */
+}
+
+.duration {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.details {
+  margin-top: 10px;
+  padding-left: 16px;
+}
+
+details summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
